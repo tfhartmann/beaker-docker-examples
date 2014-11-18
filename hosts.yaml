@@ -1,0 +1,13 @@
+HOSTS:
+  ubuntu-12-10: 
+    platform: ubuntu-12.10-x64 
+    image: ubuntu:12.04
+    hypervisor: docker 
+    #docker_image_commands: 
+    #  - 'apt-get install -y puppet' 
+  centos6: 
+    platform: centos-6-x64 
+    image: centos:centos6
+    hypervisor: docker 
+CONFIG: 
+  type: foss
