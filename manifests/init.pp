@@ -12,11 +12,11 @@ node default {
 
   # Install packages
   package { $packages:
-    ensure  => installed, 
+    ensure  => installed,
     require => Package['epel-release'],
   }
   class { 'docker': }
-  class { 'rbenv': } 
+  class { 'rbenv': }
   rbenv::plugin { 'sstephenson/ruby-build': }
   # Install Default Ruby Version on Ubuntu 14.04
   rbenv::build { '1.9.3-p484': }
