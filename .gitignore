@@ -1,1 +1,4 @@
 *.swp
+.ruby-version
+junit/
+log/
