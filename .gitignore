@@ -3,3 +3,8 @@
 junit/
 log/
 Gemfile.lock
+modules/
+.librarian/
+.tmp/
+.vagrant/
+Puppetfile.lock

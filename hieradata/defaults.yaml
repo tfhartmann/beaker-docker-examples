@@ -1,0 +1,18 @@
+# Default Hiera values for Puppet
+--- 
+
+centos::packages:
+  - emacs
+  - vim-enhanced
+  - rubygem-nokogiri
+  - ruby-devel
+  - libxml2
+  - libxml2-devel
+  - libxslt
+  - libxslt-devel
+  - gcc-c++
+  - gcc
+  - openssl-devel
+  - libyaml-devel
+  - readline-devel
+  - zlib-devel
