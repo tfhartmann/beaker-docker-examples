@@ -27,7 +27,7 @@ Vagrant.configure('2') do |config|
   # Puppet Labs CentOS 6.5 for VirtualBox
   config.vm.provider :virtualbox do |virtualbox, override|
     # Change default RAM allocation
-    virtualbox.customize ['modifyvm', :id, '--memory', '512']
+    virtualbox.customize ['modifyvm', :id, '--memory', '2048']
   end
 
   # Puppet Labs CentOS 6.4 for VMWare Fusion
