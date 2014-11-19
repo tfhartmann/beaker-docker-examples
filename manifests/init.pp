@@ -4,6 +4,10 @@ node default {
   stage { ['pre', 'post']: }
   Stage['pre'] -> Stage['main'] -> Stage['post']
 
+  user { 'vagrant':
+    groups  => ['wheel', 'docker' ],
+    require => Class['docker'],
+  }
   $packages = hiera('centos::packages')
   # Install EPEL
   package { 'epel-release':
