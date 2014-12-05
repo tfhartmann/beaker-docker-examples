@@ -6,6 +6,7 @@ group :development, :test do
   gem 'serverspec',              :require => false
   gem 'beaker',                  :require => false
   gem 'beaker-rspec',            :require => false
+  gem 'pry',                     :require => false
 end
 
 # vim:ft=ruby
