@@ -1,6 +1,6 @@
 HOSTS:
-  ubuntu-12-10: 
-    platform: ubuntu-12.10-x64 
+  ubuntu-12-04: 
+    platform: ubuntu-12.04-x64 
     image: ubuntu:12.04
     hypervisor: docker 
     docker_preserve_image: true
