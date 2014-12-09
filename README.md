@@ -1,5 +1,13 @@
 Using this example
 
+To use this exampel run:
+
+ "vagrant up"
+ "cd /vagrant"
+ "rbenv local 1.9.3-p484"
+ "bundle install" 
+ "beaker -h hosts.yaml -t tests/"
+
 If your on CentOS 6 or similar, you will need a new version of ruby, if you are on a recent ubuntu, you should be fine with just a bundle install
 
 
